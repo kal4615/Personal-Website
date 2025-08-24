@@ -30,8 +30,8 @@ export default function Projects(){
             <div className="p-6 bg-gray-100 rounded-2xl shadow hover:shadow-lg">
                 <h3 className="text-xl font-semibold">NutriApp</h3>
                 <p className="mt-2 text-gray-600">
-                Short description of your project. Tech stack, what it does, and
-                why it’s cool.
+                A web application that allows users to set fitness / health goals and track their progress. Features include logging workouts as well as meals 
+                and foods to see your daily calorie goal as well as progress throughout the day
                 </p>
                 <div className="mt-4 flex space-x-4">
                 <a
@@ -51,8 +51,7 @@ export default function Projects(){
             <div className="p-6 bg-gray-100 rounded-2xl shadow hover:shadow-lg">
                 <h3 className="text-xl font-semibold">Blogger</h3>
                 <p className="mt-2 text-gray-600">
-                Short description of your project. Tech stack, what it does, and
-                why it’s cool.
+                An open source social media platform that allows users to post blogs.
                 </p>
                 <div className="mt-4 flex space-x-4">
                 <a
@@ -72,8 +71,7 @@ export default function Projects(){
             <div className="p-6 bg-gray-100 rounded-2xl shadow hover:shadow-lg">
                 <h3 className="text-xl font-semibold">Recipe Domain</h3>
                 <p className="mt-2 text-gray-600">
-                Short description of your project. Tech stack, what it does, and
-                why it’s cool.
+                A database application that allows users to create recipes
                 </p>
                 <div className="mt-4 flex space-x-4">
                 <a
