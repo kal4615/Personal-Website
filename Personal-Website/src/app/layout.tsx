@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kevin Luong's Site",
+  title: "Kevin A. Luong's Site",
   description: "Kevin Luong's Personal Website",
 };
 
