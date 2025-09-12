@@ -51,7 +51,9 @@ export default function Projects(){
             <div className="p-6 bg-gray-100 rounded-2xl shadow hover:shadow-lg">
                 <h3 className="text-xl font-semibold">Blogger</h3>
                 <p className="mt-2 text-gray-600">
-                An open source social media platform that allows users to post blogs.
+                An open source social media platform that allows users to easily post blogs by incoporating AWS technologies. One key feature is using AWS polly which allows users to create 
+                blogs using text-to-speech. Another is using AWS rekognition which allows the application to scan a handwritten or typed blog and covert it to text for a post. These features are incorporated
+                to ensure a seemless and effortless work structure for users to uploads posts to the application.
                 </p>
                 <div className="mt-4 flex space-x-4">
                 <a
@@ -71,7 +73,9 @@ export default function Projects(){
             <div className="p-6 bg-gray-100 rounded-2xl shadow hover:shadow-lg">
                 <h3 className="text-xl font-semibold">Recipe Domain</h3>
                 <p className="mt-2 text-gray-600">
-                A database application that allows users to create recipes
+                A database application that allows users to create, import, and/or save recipes. With hundreds of ingredients and dozens of premade recipes that users can sort and search for.
+                Creating a recipe is made simple by adding ingredients, steps, and directions and the application will tie it up together for a recipe than can be made either private or public for others
+                to save and share.
                 </p>
                 <div className="mt-4 flex space-x-4">
                 <a
