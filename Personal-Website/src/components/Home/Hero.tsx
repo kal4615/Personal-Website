@@ -40,9 +40,13 @@ export default function Hero() {
               <Image
                   src="/images/letchworthStanding.jpg" // The path to your image in the public folder
                   alt="A picture of Kevin Luong"
-                  layout="fill" // Makes the image fill the container
+                  layout="responsive"
+                  height={600}
+                  width={800}
                   objectFit="cover" // Ensures the image covers the area without distortion
                   className="rounded-full" // This Tailwind class makes the image circular
+                  priority
+                  quality={100}
               />
           </div>
         </div>
