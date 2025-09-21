@@ -12,19 +12,17 @@ export default function Projects(){
                 create and sign players to contracts, bid and auction for free agents, and have complete
                 freedom in how their fantasy team performs.
                 </p>
-                <div className="mt-4 flex space-x-4">
-                <a
-                    href="https://github.com/yourname/project1"
-                    className="text-blue-600 hover:underline"
-                >
-                    GitHub
-                </a>
-                <a
-                    href="https://project1-demo.com"
-                    className="text-blue-600 hover:underline"
-                >
-                    Live Demo
-                </a>
+                <div className="mt-4 flex flex-col space-x-4">
+                    <a
+                        className="text-blue-600"
+                    >
+                        Tech Stack: 
+                    </a>
+                    <a
+                        className="text-blue-600"
+                    >
+                        GoLang, JavaScript, Next.js, React Native
+                    </a>
                 </div>
             </div>
             <div className="p-6 bg-gray-100 rounded-2xl shadow hover:shadow-lg">
@@ -33,19 +31,17 @@ export default function Projects(){
                 A web application that allows users to set fitness / health goals and track their progress. Features include logging workouts as well as meals 
                 and foods to see your daily calorie goal as well as progress throughout the day
                 </p>
-                <div className="mt-4 flex space-x-4">
-                <a
-                    href="https://github.com/yourname/project1"
-                    className="text-blue-600 hover:underline"
-                >
-                    GitHub
-                </a>
-                <a
-                    href="https://project1-demo.com"
-                    className="text-blue-600 hover:underline"
-                >
-                    Live Demo
-                </a>
+                <div className="mt-4 flex flex-col space-x-4">
+                    <a
+                        className="text-blue-600"
+                    >
+                        Tech Stack: 
+                    </a>
+                    <a
+                        className="text-blue-600"
+                    >
+                        Java, SCRUM, HTML, CSS
+                    </a>
                 </div>
             </div>
             <div className="p-6 bg-gray-100 rounded-2xl shadow hover:shadow-lg">
@@ -55,19 +51,17 @@ export default function Projects(){
                 blogs using text-to-speech. Another is using AWS rekognition which allows the application to scan a handwritten or typed blog and covert it to text for a post. These features are incorporated
                 to ensure a seemless and effortless work structure for users to uploads posts to the application.
                 </p>
-                <div className="mt-4 flex space-x-4">
-                <a
-                    href="https://github.com/yourname/project1"
-                    className="text-blue-600 hover:underline"
-                >
-                    GitHub
-                </a>
-                <a
-                    href="https://project1-demo.com"
-                    className="text-blue-600 hover:underline"
-                >
-                    Live Demo
-                </a>
+                <div className="mt-4 flex flex-col space-x-4">
+                    <a
+                        className="text-blue-600"
+                    >
+                        Tech Stack: 
+                    </a>
+                    <a
+                        className="text-blue-600"
+                    >
+                        Python, AWS (rekognition, polly, lambda, cognito, amplify)
+                    </a>
                 </div>
             </div>
             <div className="p-6 bg-gray-100 rounded-2xl shadow hover:shadow-lg">
@@ -77,19 +71,17 @@ export default function Projects(){
                 Creating a recipe is made simple by adding ingredients, steps, and directions and the application will tie it up together for a recipe than can be made either private or public for others
                 to save and share.
                 </p>
-                <div className="mt-4 flex space-x-4">
-                <a
-                    href="https://github.com/yourname/project1"
-                    className="text-blue-600 hover:underline"
-                >
-                    GitHub
-                </a>
-                <a
-                    href="https://project1-demo.com"
-                    className="text-blue-600 hover:underline"
-                >
-                    Live Demo
-                </a>
+                <div className="mt-4 flex flex-col space-x-4">
+                    <a
+                        className="text-blue-600"
+                    >
+                        Tech Stack: 
+                    </a>
+                    <a
+                        className="text-blue-600"
+                    >
+                        Python, Django, Javascript, CSS, PostgreSQL
+                    </a>
                 </div>
             </div>
             </div>

@@ -38,7 +38,7 @@ export default function Hero() {
           </div>
           <div className="flex flex-col justify-center h-screen text-center relative w-150 h-150 md:w-150 md:h-150 flex-shrink-0">
               <Image
-                  src="/images/hueImperialPic.jpg" // The path to your image in the public folder
+                  src="/images/letchworthStanding.jpg" // The path to your image in the public folder
                   alt="A picture of Kevin Luong"
                   layout="fill" // Makes the image fill the container
                   objectFit="cover" // Ensures the image covers the area without distortion
