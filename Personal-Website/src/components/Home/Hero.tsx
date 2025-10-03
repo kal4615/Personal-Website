@@ -1,8 +1,25 @@
 "use client";
 import Image from 'next/image';
 import { ReactTyped } from "react-typed";
+import { motion, AnimatePresence } from "framer-motion";
+import { useState, useEffect } from "react";
 
 export default function Hero() {
+  const items = [
+    "Software Engineer |",
+    "Problem Solver |",
+    "Lifelong Learner"
+  ];
+
+  const [sequence, setSequence] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setSequence((prev) => (prev + 1) % items.length);
+    }, items.length * 3000); // one full loop duration
+    return () => clearInterval(interval);
+  }, [items.length]);
+
   return (
       <section className="flex flex-col items-center justify-center h-screen text-left">
         <div className ="flex flex-row gap-10">
@@ -10,15 +27,28 @@ export default function Hero() {
             <h1 className="text-5xl font-bold">
               <ReactTyped
                 strings={["Hello, I’m Kevin A. Luong"]}
-                typeSpeed={80}     // typing speed
-                backSpeed={40}     // speed when deleting
+                typeSpeed={60}     // typing speed
+                backSpeed={20}     // speed when deleting
                 loop               // infinite loop
                 showCursor={true}  // blinking cursor
+                smartBackspace={false}
               />
             </h1>
-            <p className="mt-4 text-lg text-gray-600">
-              Software Engineer | Problem Solver | Lifelong Learner
-            </p>
+          <div className="mt-4 text-2xl text-gray-600 flex items-center space-x-2">
+            <AnimatePresence mode="wait">
+              {items.map((text, idx) => (
+                <motion.p
+                  key={`${sequence}-${idx}`} // changes each loop to trigger animation
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{ duration: 0.5, delay: idx * 0.5 }}
+                >
+                  {text}
+                </motion.p>
+              ))}
+            </AnimatePresence>
+          </div>
             <div className="mt-6 space-x-4">
               <a
                 href="https://github.com/kal4615"
