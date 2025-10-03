@@ -49,11 +49,11 @@ const NavBar: React.FC = () => {
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center">
-        <Link href="/" className="text-xl font-bold text-gray-800">
+        <Link href="/" className="text-2xl font-bold text-gray-800">
           Kevin Luong
         </Link>
         
-        <div className="hidden md:flex items-center space-x-6 ml-auto">
+        <div className="hidden md:flex items-center space-x-6 ml-auto text-xl">
           {/* The onClick handlers remain the same, but TypeScript now understands their types */}
           <a
             href="#about"

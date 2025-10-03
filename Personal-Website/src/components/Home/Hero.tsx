@@ -1,11 +1,21 @@
+"use client";
 import Image from 'next/image';
+import { ReactTyped } from "react-typed";
 
 export default function Hero() {
   return (
       <section className="flex flex-col items-center justify-center h-screen text-left">
         <div className ="flex flex-row gap-10">
           <div className ="flex flex-col justify-center">
-            <h1 className="text-5xl font-bold">Hi, I’m Kevin A. Luong</h1>
+            <h1 className="text-5xl font-bold">
+              <ReactTyped
+                strings={["Hello, I’m Kevin A. Luong"]}
+                typeSpeed={80}     // typing speed
+                backSpeed={40}     // speed when deleting
+                loop               // infinite loop
+                showCursor={true}  // blinking cursor
+              />
+            </h1>
             <p className="mt-4 text-lg text-gray-600">
               Software Engineer | Problem Solver | Lifelong Learner
             </p>
@@ -19,7 +29,7 @@ export default function Hero() {
                 GitHub
               </a>
               <a
-                href="docs/Luong_Kevin_Resume_SWEN_BS_PDF.pdf"
+                href="docs/Luong_Kevin_Resume_SWEN_BS.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-gray-200 text-gray-800 rounded-xl shadow hover:bg-gray-300"
